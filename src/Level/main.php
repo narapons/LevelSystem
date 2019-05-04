@@ -3,7 +3,7 @@
 namespace Level;
 
 use pocketmine\plugin\PluginBase;
-use pocketmine\event\Listener
+use pocketmine\event\Listener;
 use pocketmine\Player;
 use pocketmine\Server;
 use pocketmine\event\block\BlockbreakEvent;
