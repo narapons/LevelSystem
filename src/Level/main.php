@@ -8,7 +8,7 @@ use pocketmine\Player;
 use pocketmine\Server;
 use pocketmine\event\block\BlockbreakEvent;
 use pocketmine\utils\Config;
-use mydeacy\moneylevel\services\MoneyLevelAPI.;
+use mydeacy\moneylevel\services\MoneyLevelAPI;
 
 class main extends PluginBase implements Listener{
 
@@ -31,7 +31,7 @@ class main extends PluginBase implements Listener{
       $this->data->save();
       $config = $this->config->get('ブロック破壊数');
       if($data % $config === 0){
-         MoneyLevelAPI.::getInstance()->lvUp($name); //レベルアップ処理
+         MoneyLevelAPI::getInstance()->lvUp($name); //レベルアップ処理
          $player->sendMessage("§e【運営】 §fレベルが上がりました！");
       }
    }
