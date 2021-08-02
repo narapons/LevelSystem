@@ -33,5 +33,5 @@ class main extends PluginBase implements Listener{
          MoneyLevelAPI::getInstance()->lvup($name); //レベルアップ処理
          $player->sendMessage("§e【運営】 §fレベルが上がりました！");
       }
-   ｝
-｝
+   }
+}
