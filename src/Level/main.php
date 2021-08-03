@@ -30,7 +30,7 @@ class main extends PluginBase implements Listener{
       $this->data->set($name,$data+1);
       $this->data->save();
       $config = $this->config->get('ブロック破壊数');
-      if($data % $config === 0){
+      if($data % $config == 0){
          MoneyLevelAPI::getInstance()->lvUp($name,1); //レベルアップ処理
          $player->sendMessage("§e【運営】 §fレベルが上がりました！");
       }
