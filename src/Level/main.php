@@ -8,7 +8,7 @@ use pocketmine\Player;
 use pocketmine\Server;
 use pocketmine\event\block\BlockBreakEvent;
 use pocketmine\utils\Config;
-use mydeacy\moneylevel\services\MoneyLevelAPI;
+use mydeacy\moneylevel\service\MoneyLevelAPI;
 
 class main extends PluginBase implements Listener{
 
