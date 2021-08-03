@@ -6,7 +6,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 use pocketmine\Player;
 use pocketmine\Server;
-use pocketmine\event\block\BlockbreakEvent;
+use pocketmine\event\block\BlockBreakEvent;
 use pocketmine\utils\Config;
 use mydeacy\moneylevel\services\MoneyLevelAPI;
 
